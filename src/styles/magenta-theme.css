@@ -1,0 +1,33 @@
+:root {
+  --magenta-primary: #FF00E0;
+  --magenta-light: #FF33E6;
+  --magenta-dark: #CC00B3;
+  --magenta-glow: rgba(255, 0, 224, 0.3);
+}
+
+.btn-magenta {
+  background: linear-gradient(135deg, var(--magenta-primary), var(--magenta-dark));
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px var(--magenta-glow);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-magenta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px var(--magenta-glow);
+}
+
+.text-magenta {
+  color: var(--magenta-primary);
+  font-weight: bold;
+}
+
+.neon-magenta {
+  color: var(--magenta-primary);
+  text-shadow: 0 0 10px var(--magenta-primary);
+}

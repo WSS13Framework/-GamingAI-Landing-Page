@@ -8,8 +8,10 @@ const Header: React.FC = () => {
       <div className="absolute inset-0 bg-black opacity-60 z-10"></div>
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        // AQUI ESTÁ A NOVA IMAGEM!
-        style={{ backgroundImage: "url('https://i.ibb.co/9ZKqvXh/gaming-setup.jpg')" }} 
+        style={{ 
+          backgroundImage: "url('/images/gaming-setup.jpg')",
+          backgroundPosition: "center 35%" // <--- AJUSTE AQUI!
+        }} 
       ></div>
       <div className="relative z-20 flex flex-col items-center">
         <motion.h1 
@@ -18,7 +20,7 @@ const Header: React.FC = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-wider text-white"
         >
-          Pare de perder <span className="text-glow-blue text-neon-blue">8 horas</span> por semana
+          Pare de perder <span className="text-glow-blue text-neon-green">8 horas</span> por semana
         </motion.h1>
         <motion.h2
           initial={{ opacity: 0, y: -50 }}

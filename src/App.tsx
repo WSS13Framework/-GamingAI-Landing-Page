@@ -6,6 +6,7 @@ import ResultsSection from './components/ResultsSection';
 import OfferSection from './components/OfferSection';
 import CtaSection from './components/CtaSection';
 import Footer from './components/Footer';
+import './styles/magenta-theme.css'; // Certifique-se de que o caminho está correto
 
 function App() {
   return (

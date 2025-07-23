@@ -8,7 +8,8 @@ const Header: React.FC = () => {
       <div className="absolute inset-0 bg-black opacity-60 z-10"></div>
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://i.ibb.co/L8pC8Xy/gamer.jpg')" }}
+        // AQUI ESTÁ A NOVA IMAGEM!
+        style={{ backgroundImage: "url('https://i.ibb.co/9ZKqvXh/gaming-setup.jpg')" }} 
       ></div>
       <div className="relative z-20 flex flex-col items-center">
         <motion.h1 
